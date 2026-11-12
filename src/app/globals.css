@@ -100,6 +100,7 @@ html{scroll-padding-top:88px}body{overflow-x:clip}main{min-width:0}.site-header{
 .contact-form .formgrid{gap:18px}
 .contact-form .field{min-width:0;min-height:50px;border:1px solid #d8d3c8;border-radius:8px;background:#fff;padding:13px 15px;font:400 1rem Arial,sans-serif;transition:border-color .2s,box-shadow .2s}
 .contact-form .field:focus{outline:none;border-color:#958461;box-shadow:0 0 0 3px rgba(200,169,107,.18)}
+.contact-form .field::placeholder{color:#706d64;opacity:1;font-weight:400}
 .contact-form textarea{resize:vertical;min-height:140px}
 .contact-form .contact-consent{display:flex;align-items:flex-start;gap:10px;font-size:.78rem;font-weight:400}
 .contact-consent input{width:18px;height:18px;flex:none;margin:2px 0;accent-color:#79643e}
