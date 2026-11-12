@@ -58,15 +58,15 @@ html{scroll-padding-top:88px}body{overflow-x:clip}main{min-width:0}.site-header{
 .locale-switch{position:relative;display:flex;align-items:center}.locale-trigger{display:flex;align-items:center;gap:9px;padding:11px 14px;border:1px solid rgba(25,26,23,.22);border-radius:8px;background:rgba(255,255,255,.38);color:inherit;font:700 .82rem Arial,sans-serif;cursor:pointer}.locale-trigger .locale-chevron{flex:none;transition:transform .2s}.locale-switch.is-open .locale-trigger .locale-chevron{transform:rotate(180deg)}.locale-menu{position:absolute;top:calc(100% + 8px);inset-inline-end:0;min-width:156px;padding:6px;border:1px solid rgba(25,26,23,.12);border-radius:10px;background:rgba(250,248,243,.97);box-shadow:0 12px 30px rgba(17,25,20,.16);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);opacity:0;visibility:hidden;transform:translateY(-5px);transition:opacity .16s,transform .16s,visibility .16s;z-index:90}.locale-switch.is-open .locale-menu{opacity:1;visibility:visible;transform:translateY(0)}.locale-menu button{display:flex;align-items:center;justify-content:space-between;width:100%;padding:10px 12px;border:0;border-radius:6px;background:transparent;color:inherit;text-align:start;font:500 .86rem Arial,sans-serif;cursor:pointer}.locale-menu button:hover,.locale-menu button[aria-current=page]{background:rgba(200,169,107,.22)}html[dir=rtl] body{direction:rtl;text-align:right;font-family:Tahoma,Arial,sans-serif}html[dir=rtl] h1,html[dir=rtl] h2,html[dir=rtl] h3,html[dir=rtl] .serif{font-family:Tahoma,Arial,sans-serif;letter-spacing:0}html[dir=rtl] .home-hero-shade{background:linear-gradient(270deg,rgba(9,19,24,.65) 0%,rgba(9,19,24,.18) 50%,transparent 76%),linear-gradient(0deg,rgba(9,16,16,.5),transparent 52%)}html[dir=rtl] .header-inner,html[dir=rtl] .header-desktop,html[dir=rtl] .header-actions{direction:rtl}html[dir=rtl] .press-copy{align-items:flex-start}html[dir=rtl] .press-social-dock{direction:ltr}html[dir=rtl] .hero-facts{direction:rtl}@media(max-width:760px){.locale-menu{inset-inline-end:0;min-width:150px}}
 
 /* Keep the mobile navigation and its controls inside the expanded header. */
-.header-investor{padding:.75rem 1rem;white-space:nowrap}
-.header-desktop a.header-investor:hover{text-decoration:none}
+
+
 .menu-button{align-items:center;justify-content:center;background:transparent;border:1px solid rgba(25,26,23,.22);border-radius:8px;color:inherit;flex:none}
 .mobile-nav{display:none}
 @media(max-width:1100px){
  .header-desktop,.header-actions{display:none}
  .menu-button{display:flex}
  .site-header .mobile-nav{display:grid;position:static;max-height:calc(100dvh - 112px);overflow-y:auto;border:0;border-top:1px solid rgba(25,26,23,.12);border-radius:0 0 14px 14px;background:transparent;box-shadow:none;backdrop-filter:none;padding:12px 24px 24px}
- .mobile-nav .header-investor{margin-block:10px;padding:14px 16px;font-size:.9rem}
+
  .mobile-menu-actions{display:grid;gap:16px;padding-top:20px}
  .mobile-nav .header-contact{padding:14px 16px;border:0;font-size:.9rem}
  .mobile-menu-actions .locale-switch{display:block}
@@ -75,3 +75,14 @@ html{scroll-padding-top:88px}body{overflow-x:clip}main{min-width:0}.site-header{
  .mobile-menu-actions .locale-switch.is-open .locale-menu{display:block}
 }
 .footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:28px}.footer-brand img{display:block}.footer-brand p{margin:0}
+.mobile-menu-panel{display:none;overflow:hidden}
+.menu-button svg path{transform-box:fill-box;transform-origin:center;transition:transform .25s ease,opacity .18s ease}
+.menu-button[aria-expanded=true] .burger-top{transform:translateY(6px) rotate(45deg)}
+.menu-button[aria-expanded=true] .burger-middle{opacity:0;transform:scaleX(.5)}
+.menu-button[aria-expanded=true] .burger-bottom{transform:translateY(-6px) rotate(-45deg)}
+@media(max-width:1100px){
+ .mobile-menu-panel{display:block}
+ .mobile-nav>a{border:0;border-radius:8px;padding:14px 12px;font-size:1rem;font-weight:500;transition:background-color .18s,color .18s}
+ .mobile-nav>a:hover,.mobile-nav>a:focus-visible{background:rgba(200,169,107,.16);color:#191a17}
+ .mobile-nav>a:focus-visible{outline:2px solid #8b5733;outline-offset:-2px}
+}
