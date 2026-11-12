@@ -101,6 +101,12 @@ html{scroll-padding-top:88px}body{overflow-x:clip}main{min-width:0}.site-header{
 .contact-form .field{min-width:0;min-height:50px;border:1px solid #d8d3c8;border-radius:8px;background:#fff;padding:13px 15px;font:400 1rem Arial,sans-serif;transition:border-color .2s,box-shadow .2s}
 .contact-form .field:focus{outline:none;border-color:#958461;box-shadow:0 0 0 3px rgba(200,169,107,.18)}
 .contact-form .field::placeholder{color:#706d64;opacity:1;font-weight:400}
+/* Center the tower and reserve space beneath the floating header. */
+.home-hero-media img{object-position:50% 0%}
+.home-hero-content{margin-block:0;padding-top:140px;padding-bottom:clamp(48px,6vw,80px)}
+.home-hero h1{margin:20px 0 0;text-wrap:balance}
+.home-hero-content>.eyebrow{margin:0}
+@media(max-width:760px){.home-hero-content{padding-top:112px;padding-bottom:36px}.home-hero h1{font-size:clamp(2.6rem,10.5vw,4rem);line-height:1.05}.home-hero .home-actions{gap:12px;margin-top:24px}.home-hero .hero-facts{margin-top:24px}}
 .contact-form textarea{resize:vertical;min-height:140px}
 .contact-form .contact-consent{display:flex;align-items:flex-start;gap:10px;font-size:.78rem;font-weight:400}
 .contact-consent input{width:18px;height:18px;flex:none;margin:2px 0;accent-color:#79643e}
