@@ -1,0 +1,34 @@
+{
+  "name": "rockhill-site",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "predev": "node scripts/media.mjs",
+    "prebuild": "node scripts/media.mjs"
+  },
+  "dependencies": {
+    "motion": "^14.12.0",
+    "next": "16.4.6",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.1",
+    "@tailwindcss/postcss": "4.1.15",
+    "@types/node": "24.8.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "eslint": "9.38.0",
+    "eslint-config-next": "16.4.6",
+    "playwright": "^1.65.0",
+    "tailwindcss": "4.1.15",
+    "typescript": "5.9.3"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

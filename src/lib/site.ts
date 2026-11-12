@@ -1,0 +1,18 @@
+import raw from '../../content/site-data.json';
+import { z } from 'zod';
+const localized=z.object({en:z.string().min(1),ru:z.string().min(1),ar:z.string().min(1)});
+const publication=z.enum(['approved','owner-review','preview-only']);
+const project=z.object({slug:z.string().regex(/^[a-z0-9-]+$/),name:localized,location:localized,type:z.enum(['apartments','villa']),status:z.enum(['under-construction','portfolio','planned']),publication,hero:z.string().startsWith('assets/'),media:z.array(z.string().startsWith('assets/')),plans:z.array(z.string().startsWith('assets/')).optional(),unitCount:z.number().optional(),registrationNumber:z.string().optional(),statusEvidenceDate:z.string().optional()});
+const update=z.object({slug:z.string(),date:z.iso.date(),type:z.enum(['press','project','company']),projectSlug:z.string().nullable(),publication,title:localized,summary:localized,sourceId:z.string(),publicationName:z.string().optional(),sourceUrl:z.url().optional()});
+const doc=z.object({id:z.string(),title:localized,category:z.enum(['corporate','investment','project']),access:z.enum(['request','public']),version:z.string().nullable(),effectiveDate:z.string().nullable(),publicUrl:z.string().nullable(),publication});
+export const data=z.object({company:z.object({name:z.string(),founder:localized,office:localized,generalEmail:z.email(),generalPhone:z.string(),propertyPhone:z.string(),investorEmail:z.string().nullable()}),statusLabels:z.record(z.string(),localized),projects:z.array(project),updates:z.array(update),documents:z.array(doc),approvals:z.object({projects:z.array(z.string()),updates:z.array(z.string()),assets:z.array(z.string()),publicDocuments:z.array(z.string())})}).parse(raw);
+for(const [label,ids] of [['project',data.projects.map(x=>x.slug)],['update',data.updates.map(x=>x.slug)],['document',data.documents.map(x=>x.id)]]) if(new Set(ids).size!==ids.length) throw new Error(`Duplicate ${label} ID`);
+export type Locale='en'|'ru'|'ar';
+export const isLocale=(s:string):s is Locale=>s==='en'||s==='ru'||s==='ar';
+export const preview=process.env.SITE_MODE!=='production';
+export const projects=data.projects.filter(p=>preview||data.approvals.projects.includes(p.slug));
+export const updates=data.updates.filter(u=>preview||data.approvals.updates.includes(u.slug));
+export const documents=data.documents.filter(d=>preview||d.publication==='approved');
+export const media=(path:string)=>`/media/${path.replace(/^assets\//,'')}`;
+export const visibleMedia=(p:string)=>preview||data.approvals.assets.includes(p);
+export const emailReady=preview||Boolean(process.env.EMAIL_API_KEY&&process.env.ENQUIRY_FROM&&process.env.PROPERTY_INBOX&&process.env.INVESTOR_INBOX&&process.env.GENERAL_INBOX);

@@ -1,0 +1,347 @@
+{
+  "researchDate": "2026-11-11",
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "ru",
+    "ar"
+  ],
+  "siteMode": "preview",
+  "company": {
+    "name": "Rockhill Development",
+    "founder": {
+      "en": "Dzhabrail Uruskhanov",
+      "ru": "Джабраил Урусханов",
+      "ar": "??????? ??????????"
+    },
+    "office": {
+      "en": "CityLife Al Khor, Office 10–13, Ajman, UAE",
+      "ru": "CityLife Al Khor, офис 10–13, Аджман, ОАЭ",
+      "ar": "???? ????? ?????? ??????? ??? ?????? ?? ????? ?????? ?????? ???? ???????? ??????? ???????"
+    },
+    "generalEmail": "info@rockhill-dev.com",
+    "generalPhone": "+971501828086",
+    "propertyPhone": "+971564343002",
+    "investorEmail": null,
+    "sourceIds": [
+      "R1",
+      "R2"
+    ]
+  },
+  "statusLabels": {
+    "under-construction": {
+      "en": "Under construction",
+      "ru": "Строится",
+      "ar": "??? ???????"
+    },
+    "portfolio": {
+      "en": "Portfolio project",
+      "ru": "Проект в портфолио",
+      "ar": "??? ???????"
+    },
+    "planned": {
+      "en": "Planned",
+      "ru": "Планируется",
+      "ar": "???? ??"
+    }
+  },
+  "projects": [
+    {
+      "slug": "rockhill-tower",
+      "name": {
+        "en": "Rockhill Tower",
+        "ru": "Rockhill Tower",
+        "ar": "??? ??????"
+      },
+      "location": {
+        "en": "Al Alia, Ajman, UAE",
+        "ru": "Аль-Алия, Аджман, ОАЭ",
+        "ar": "???????? ?????"
+      },
+      "type": "apartments",
+      "status": "under-construction",
+      "publication": "owner-review",
+      "hero": "assets/tower/tower-hero.webp",
+      "media": [
+        "assets/tower/tower-hero.webp",
+        "assets/tower/tower-front.webp",
+        "assets/tower/tower-exterior-dusk.webp",
+        "assets/tower/tower-exterior-angle.webp",
+        "assets/tower/tower-interior-01.webp",
+        "assets/tower/tower-interior-02.webp",
+        "assets/tower/tower-amenity-01.webp",
+        "assets/tower/tower-amenity-02.webp",
+        "assets/tower/tower-amenity-03.webp",
+        "assets/tower/tower-amenity-04.webp"
+      ],
+      "sourceIds": [
+        "R1",
+        "R3",
+        "R8",
+        "R9"
+      ],
+      "unitCount": 416,
+      "handover": null,
+      "currentPriceAed": null,
+      "progressPercent": null,
+      "coordinates": null,
+      "plans": [
+        "assets/tower/floorplan-studio.webp",
+        "assets/tower/floorplan-one-bedroom.webp",
+        "assets/tower/floorplan-two-bedroom.webp"
+      ],
+      "registrationNumber": "542",
+      "statusEvidenceDate": "2026-06-30"
+    },
+    {
+      "slug": "villa-jebel-ali",
+      "name": {
+        "en": "Villa Jebel Ali",
+        "ru": "Вилла в Джебель-Али",
+        "ar": "Villa Jebel Ali"
+      },
+      "location": {
+        "en": "Jebel Ali, Dubai, UAE",
+        "ru": "Джебель-Али, Дубай, ОАЭ",
+        "ar": "Jebel Ali, Dubai, UAE"
+      },
+      "type": "villa",
+      "status": "portfolio",
+      "publication": "owner-review",
+      "hero": "assets/villas/jebel-ali.webp",
+      "media": [],
+      "sourceIds": [
+        "R4"
+      ]
+    },
+    {
+      "slug": "villa-jebel-ali-hills",
+      "name": {
+        "en": "Villa Jebel Ali Hills",
+        "ru": "Вилла в Джебель-Али-Хиллс",
+        "ar": "Villa Jebel Ali Hills"
+      },
+      "location": {
+        "en": "Jebel Ali Hills, Dubai, UAE",
+        "ru": "Джебель-Али-Хиллс, Дубай, ОАЭ",
+        "ar": "Jebel Ali Hills, Dubai, UAE"
+      },
+      "type": "villa",
+      "status": "portfolio",
+      "publication": "owner-review",
+      "hero": "assets/villas/jebel-ali-hills.webp",
+      "media": [],
+      "sourceIds": [
+        "R4"
+      ]
+    },
+    {
+      "slug": "rockhill-residence",
+      "name": {
+        "en": "Rockhill Residence",
+        "ru": "Rockhill Residence",
+        "ar": "?????? ???????"
+      },
+      "location": {
+        "en": "Ajman, UAE",
+        "ru": "Аджман, ОАЭ",
+        "ar": "?????"
+      },
+      "type": "apartments",
+      "status": "planned",
+      "publication": "preview-only",
+      "hero": "assets/pipeline/residence-concept-01.webp",
+      "media": [
+        "assets/pipeline/residence-concept-01.webp",
+        "assets/pipeline/residence-concept-02.webp",
+        "assets/pipeline/residence-concept-03.webp"
+      ],
+      "sourceIds": [
+        "R6",
+        "R7"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "slug": "rockhill-ajman-exhibition-apartment-draw",
+      "date": "2026-09-15",
+      "type": "press",
+      "projectSlug": null,
+      "publication": "owner-review",
+      "sourceId": "R14",
+      "publicationName": "Emirates News Agency (WAM)",
+      "sourceUrl": "https://www.wam.ae/en/article/3cmlhgug-ajman-real-estate-exhibition-records-310-deals",
+      "title": {
+        "en": "WAM reports Rockhill apartment draw at Ajman exhibition",
+        "ru": "WAM сообщает о розыгрыше квартиры от Rockhill на выставке в Аджмане",
+        "ar": "??? ???? ????? ??? ??? ??? ?? ?????? ?? ???? ????? ???????"
+      },
+      "summary": {
+        "en": "WAM reports that an exhibition draw included a fully equipped apartment provided by Rockhill for people of determination in Ajman, in cooperation with Mashaghel Centre.",
+        "ru": "WAM сообщает, что в рамках выставки разыгрывалась полностью оборудованная квартира, предоставленная Rockhill для людей с особыми потребностями в Аджмане в сотрудничестве с центром Mashaghel.",
+        "ar": "????? ????? ????? ???????? ??? ????? ?? ?????? ??? ??? ????? ??????? ?????? ?????? ?????? ????? ?? ?????? ???????? ?? ???? ?????."
+      }
+    },
+    {
+      "slug": "rockhill-tower-gulf-news-feature",
+      "date": "2026-07-27",
+      "type": "press",
+      "projectSlug": "rockhill-tower",
+      "publication": "owner-review",
+      "sourceId": "R13",
+      "publicationName": "Gulf News · Partner Content",
+      "sourceUrl": "https://gulfnews.com/business/property/rockhill-bets-dh250-million-on-affordable-premium-living-with-its-first-ajman-tower-1.500617833",
+      "title": {
+        "en": "Gulf News features Rockhill Tower in Ajman",
+        "ru": "Gulf News рассказывает о Rockhill Tower в Аджмане",
+        "ar": "??? ???? ???? ????? ??? ??? ?????? ?? ?????"
+      },
+      "summary": {
+        "en": "Gulf News’ partner-content feature covers Rockhill Tower, a 416-home development in Ajman’s Al Alia district, and the company’s approach to design, construction and management.",
+        "ru": "В партнерском материале Gulf News рассказывается о Rockhill Tower — проекте на 416 квартир в районе Аль-Алия в Аджмане, а также о подходе компании к проектированию, строительству и управлению недвижимостью.",
+        "ar": "?????? ????? ??? ???? ??? ??????? ?????? ??? ??????? ??? ????? ??? 416 ???? ????? ?? ????? ??????? ??????? ???? ?????? ?? ??????? ???????? ????????."
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "developer-licence",
+      "title": {
+        "en": "Developer licence",
+        "ru": "Лицензия застройщика",
+        "ar": "Developer licence"
+      },
+      "category": "corporate",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "contractor-licence",
+      "title": {
+        "en": "Contractor licence",
+        "ru": "Лицензия генподрядчика",
+        "ar": "Contractor licence"
+      },
+      "category": "corporate",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "corporate-registration",
+      "title": {
+        "en": "Issuer incorporation and governing documents",
+        "ru": "Регистрация эмитента и учредительные документы",
+        "ar": "Issuer incorporation and governing documents"
+      },
+      "category": "corporate",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "subscription",
+      "title": {
+        "en": "Share subscription agreement",
+        "ru": "Договор подписки на акции",
+        "ar": "Share subscription agreement"
+      },
+      "category": "investment",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "shareholders",
+      "title": {
+        "en": "Shareholders’ agreement",
+        "ru": "Акционерное соглашение",
+        "ar": "??????? ?????????"
+      },
+      "category": "investment",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "adherence",
+      "title": {
+        "en": "Deed of adherence",
+        "ru": "Соглашение о присоединении",
+        "ar": "Deed of adherence"
+      },
+      "category": "investment",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "financials",
+      "title": {
+        "en": "Financial statements and valuation materials",
+        "ru": "Финансовая отчётность и материалы оценки",
+        "ar": "Financial statements and valuation materials"
+      },
+      "category": "investment",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "project-registration",
+      "title": {
+        "en": "Project registration and project escrow confirmation",
+        "ru": "Регистрация проекта и подтверждение проектного эскроу",
+        "ar": "Project registration and project escrow confirmation"
+      },
+      "category": "project",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    },
+    {
+      "id": "tower-brochure",
+      "title": {
+        "en": "Rockhill Tower brochure",
+        "ru": "Брошюра Rockhill Tower",
+        "ar": "Rockhill Tower brochure"
+      },
+      "category": "project",
+      "access": "request",
+      "version": null,
+      "effectiveDate": null,
+      "publicUrl": null,
+      "publication": "owner-review"
+    }
+  ],
+  "features": {
+    "calculator": false,
+    "payments": false,
+    "shareSubscription": false,
+    "analytics": false
+  },
+  "approvals": {
+    "projects": [],
+    "updates": [],
+    "assets": [],
+    "publicDocuments": []
+  }
+}
