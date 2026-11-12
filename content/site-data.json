@@ -12,12 +12,12 @@
     "founder": {
       "en": "Dzhabrail Uruskhanov",
       "ru": "Джабраил Урусханов",
-      "ar": "??????? ??????????"
+      "ar": "جبرائيل أوروسخانوف"
     },
     "office": {
       "en": "CityLife Al Khor, Office 10–13, Ajman, UAE",
       "ru": "CityLife Al Khor, офис 10–13, Аджман, ОАЭ",
-      "ar": "???? ????? ?????? ??????? ??? ?????? ?? ????? ?????? ?????? ???? ???????? ??????? ???????"
+      "ar": "سيتي لايف الخور، المكاتب 10–13، عجمان، الإمارات العربية المتحدة"
     },
     "generalEmail": "info@rockhill-dev.com",
     "generalPhone": "+971501828086",
@@ -32,17 +32,17 @@
     "under-construction": {
       "en": "Under construction",
       "ru": "Строится",
-      "ar": "??? ???????"
+      "ar": "قيد الإنشاء"
     },
     "portfolio": {
       "en": "Portfolio project",
       "ru": "Проект в портфолио",
-      "ar": "??? ???????"
+      "ar": "مشروع ضمن المحفظة"
     },
     "planned": {
       "en": "Planned",
       "ru": "Планируется",
-      "ar": "???? ??"
+      "ar": "مخطط له"
     }
   },
   "projects": [
@@ -51,12 +51,12 @@
       "name": {
         "en": "Rockhill Tower",
         "ru": "Rockhill Tower",
-        "ar": "??? ??????"
+        "ar": "برج روكهيل"
       },
       "location": {
         "en": "Al Alia, Ajman, UAE",
         "ru": "Аль-Алия, Аджман, ОАЭ",
-        "ar": "???????? ?????"
+        "ar": "العالية، عجمان، الإمارات العربية المتحدة"
       },
       "type": "apartments",
       "status": "under-construction",
@@ -98,12 +98,12 @@
       "name": {
         "en": "Villa Jebel Ali",
         "ru": "Вилла в Джебель-Али",
-        "ar": "Villa Jebel Ali"
+        "ar": "فيلا جبل علي"
       },
       "location": {
         "en": "Jebel Ali, Dubai, UAE",
         "ru": "Джебель-Али, Дубай, ОАЭ",
-        "ar": "Jebel Ali, Dubai, UAE"
+        "ar": "جبل علي، دبي، الإمارات العربية المتحدة"
       },
       "type": "villa",
       "status": "portfolio",
@@ -119,12 +119,12 @@
       "name": {
         "en": "Villa Jebel Ali Hills",
         "ru": "Вилла в Джебель-Али-Хиллс",
-        "ar": "Villa Jebel Ali Hills"
+        "ar": "فيلا جبل علي هيلز"
       },
       "location": {
         "en": "Jebel Ali Hills, Dubai, UAE",
         "ru": "Джебель-Али-Хиллс, Дубай, ОАЭ",
-        "ar": "Jebel Ali Hills, Dubai, UAE"
+        "ar": "جبل علي هيلز، دبي، الإمارات العربية المتحدة"
       },
       "type": "villa",
       "status": "portfolio",
@@ -140,12 +140,12 @@
       "name": {
         "en": "Rockhill Residence",
         "ru": "Rockhill Residence",
-        "ar": "?????? ???????"
+        "ar": "روكهيل ريزيدنس"
       },
       "location": {
         "en": "Ajman, UAE",
         "ru": "Аджман, ОАЭ",
-        "ar": "?????"
+        "ar": "عجمان، الإمارات العربية المتحدة"
       },
       "type": "apartments",
       "status": "planned",
@@ -175,12 +175,12 @@
       "title": {
         "en": "WAM reports Rockhill apartment draw at Ajman exhibition",
         "ru": "WAM сообщает о розыгрыше квартиры от Rockhill на выставке в Аджмане",
-        "ar": "??? ???? ????? ??? ??? ??? ?? ?????? ?? ???? ????? ???????"
+        "ar": "وام: سحب على شقة مقدمة من روكهيل خلال معرض في عجمان"
       },
       "summary": {
         "en": "WAM reports that an exhibition draw included a fully equipped apartment provided by Rockhill for people of determination in Ajman, in cooperation with Mashaghel Centre.",
         "ru": "WAM сообщает, что в рамках выставки разыгрывалась полностью оборудованная квартира, предоставленная Rockhill для людей с особыми потребностями в Аджмане в сотрудничестве с центром Mashaghel.",
-        "ar": "????? ????? ????? ???????? ??? ????? ?? ?????? ??? ??? ????? ??????? ?????? ?????? ?????? ????? ?? ?????? ???????? ?? ???? ?????."
+        "ar": "أفادت وكالة أنباء الإمارات (وام) بأن سحباً خلال معرض شمل شقة مجهزة بالكامل قدمتها روكهيل لأصحاب الهمم في عجمان، بالتعاون مع مركز مشاغل."
       }
     },
     {
@@ -195,12 +195,12 @@
       "title": {
         "en": "Gulf News features Rockhill Tower in Ajman",
         "ru": "Gulf News рассказывает о Rockhill Tower в Аджмане",
-        "ar": "??? ???? ???? ????? ??? ??? ?????? ?? ?????"
+        "ar": "جلف نيوز تسلط الضوء على برج روكهيل في عجمان"
       },
       "summary": {
         "en": "Gulf News’ partner-content feature covers Rockhill Tower, a 416-home development in Ajman’s Al Alia district, and the company’s approach to design, construction and management.",
         "ru": "В партнерском материале Gulf News рассказывается о Rockhill Tower — проекте на 416 квартир в районе Аль-Алия в Аджмане, а также о подходе компании к проектированию, строительству и управлению недвижимостью.",
-        "ar": "?????? ????? ??? ???? ??? ??????? ?????? ??? ??????? ??? ????? ??? 416 ???? ????? ?? ????? ??????? ??????? ???? ?????? ?? ??????? ???????? ????????."
+        "ar": "تتناول مادة نشرتها جلف نيوز ضمن محتوى الشركاء برج روكهيل، وهو مشروع يضم 416 وحدة سكنية في منطقة العالية بعجمان، ونهج الشركة في التصميم والإنشاء والإدارة."
       }
     }
   ],
@@ -210,7 +210,7 @@
       "title": {
         "en": "Developer licence",
         "ru": "Лицензия застройщика",
-        "ar": "Developer licence"
+        "ar": "رخصة المطور العقاري"
       },
       "category": "corporate",
       "access": "request",
@@ -224,7 +224,7 @@
       "title": {
         "en": "Contractor licence",
         "ru": "Лицензия генподрядчика",
-        "ar": "Contractor licence"
+        "ar": "رخصة المقاول"
       },
       "category": "corporate",
       "access": "request",
@@ -238,7 +238,7 @@
       "title": {
         "en": "Issuer incorporation and governing documents",
         "ru": "Регистрация эмитента и учредительные документы",
-        "ar": "Issuer incorporation and governing documents"
+        "ar": "وثائق تأسيس الجهة المصدرة ونظامها الأساسي"
       },
       "category": "corporate",
       "access": "request",
@@ -252,7 +252,7 @@
       "title": {
         "en": "Share subscription agreement",
         "ru": "Договор подписки на акции",
-        "ar": "Share subscription agreement"
+        "ar": "اتفاقية الاكتتاب في الأسهم"
       },
       "category": "investment",
       "access": "request",
@@ -266,7 +266,7 @@
       "title": {
         "en": "Shareholders’ agreement",
         "ru": "Акционерное соглашение",
-        "ar": "??????? ?????????"
+        "ar": "اتفاقية المساهمين"
       },
       "category": "investment",
       "access": "request",
@@ -280,7 +280,7 @@
       "title": {
         "en": "Deed of adherence",
         "ru": "Соглашение о присоединении",
-        "ar": "Deed of adherence"
+        "ar": "وثيقة الانضمام"
       },
       "category": "investment",
       "access": "request",
@@ -294,7 +294,7 @@
       "title": {
         "en": "Financial statements and valuation materials",
         "ru": "Финансовая отчётность и материалы оценки",
-        "ar": "Financial statements and valuation materials"
+        "ar": "القوائم المالية ومستندات التقييم"
       },
       "category": "investment",
       "access": "request",
@@ -308,7 +308,7 @@
       "title": {
         "en": "Project registration and project escrow confirmation",
         "ru": "Регистрация проекта и подтверждение проектного эскроу",
-        "ar": "Project registration and project escrow confirmation"
+        "ar": "تسجيل المشروع وتأكيد حساب الضمان الخاص به"
       },
       "category": "project",
       "access": "request",
@@ -322,7 +322,7 @@
       "title": {
         "en": "Rockhill Tower brochure",
         "ru": "Брошюра Rockhill Tower",
-        "ar": "Rockhill Tower brochure"
+        "ar": "كتيب برج روكهيل"
       },
       "category": "project",
       "access": "request",
