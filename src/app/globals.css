@@ -86,3 +86,24 @@ html{scroll-padding-top:88px}body{overflow-x:clip}main{min-width:0}.site-header{
  .mobile-nav>a:hover,.mobile-nav>a:focus-visible{background:rgba(200,169,107,.16);color:#191a17}
  .mobile-nav>a:focus-visible{outline:2px solid #8b5733;outline-offset:-2px}
 }
+.contact-section{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:start;gap:clamp(32px,6vw,88px);scroll-margin-top:24px}
+.contact-heading h2{font-size:clamp(2.6rem,4.5vw,4.8rem);margin:18px 0 24px}
+.contact-heading>p:not(.eyebrow){color:#625f57;max-width:440px}
+.contact-details{margin-top:36px;padding-top:28px;border-top:1px solid #d6d0c4;gap:14px;font-size:.95rem}
+.contact-details h3{font-size:1.45rem;margin:0}
+.contact-details p{margin:0 0 6px;max-width:380px}
+.contact-details a{overflow-wrap:anywhere;text-underline-offset:5px}
+.contact-form-card{min-width:0;background:#fffdf8;border:1px solid #e4ddd0;border-radius:20px;padding:clamp(24px,3.5vw,48px);box-shadow:0 16px 48px rgba(35,35,25,.045)}
+.contact-form-card>h3{font-size:2rem;margin:0 0 28px}
+.contact-form{display:grid;gap:22px}
+.contact-form label{display:grid;gap:9px;font-size:.82rem;font-weight:600;line-height:1.5;color:#46463c}
+.contact-form .formgrid{gap:18px}
+.contact-form .field{min-width:0;min-height:50px;border:1px solid #d8d3c8;border-radius:8px;background:#fff;padding:13px 15px;font:400 1rem Arial,sans-serif;transition:border-color .2s,box-shadow .2s}
+.contact-form .field:focus{outline:none;border-color:#958461;box-shadow:0 0 0 3px rgba(200,169,107,.18)}
+.contact-form textarea{resize:vertical;min-height:140px}
+.contact-form .contact-consent{display:flex;align-items:flex-start;gap:10px;font-size:.78rem;font-weight:400}
+.contact-consent input{width:18px;height:18px;flex:none;margin:2px 0;accent-color:#79643e}
+.contact-form>.button{min-height:52px;border-radius:8px;animation:none}
+.contact-form [role=status]{margin:0;font-size:.9rem}
+.contact-form [role=status]:empty{display:none}
+@media(max-width:760px){.contact-section{grid-template-columns:1fr;gap:32px}.contact-form-card{border-radius:14px;padding:24px 20px}.contact-form .formgrid{grid-template-columns:1fr}.contact-details{margin-top:28px}}
