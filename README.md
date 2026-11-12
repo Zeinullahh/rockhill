@@ -1,6 +1,6 @@
 # Rockhill Development website build kit
 
-## Local private preview
+## Local presentation
 
 This folder is the Next.js App Router project root. Use Node 20 or newer and pnpm 9.
 
@@ -9,13 +9,13 @@ pnpm install
 pnpm dev
 ```
 
-Open http://localhost:3000/en or http://localhost:3000/ru. `/` redirects to English. The default `SITE_MODE=preview` (also used when unset) shows owner-review records and simulates enquiry delivery without credentials. Set `PREVIEW_USER` and `PREVIEW_PASSWORD` in `.env.local` to require HTTP Basic authentication. A preview deployed on Vercel requires both variables; it returns 503 without them. Preview responses use `noindex`, and the sitemap is empty.
+Open http://localhost:3000/en or http://localhost:3000/ru. `/` redirects to English. The default `SITE_MODE=preview` (also used when unset) shows owner-review records and simulates enquiry delivery without credentials. The presentation opens directly, locally and on Vercel, with no login or environment variables required. Preview responses use `noindex`, and the sitemap is empty.
 
 Use `pnpm lint`, `pnpm typecheck`, and `pnpm build` for checks. Run `pnpm start` after a build. On PowerShell installations that block `.ps1` shims, use `pnpm.cmd` in place of `pnpm`.
 
 ## Vercel deployment and publication
 
-Import this folder as a Git repository in Vercel and select the standard Next.js framework preset. Use pnpm install and the default `next build`; no custom server or storage service is needed. Set `SITE_URL` to the deployed origin. Start with `SITE_MODE=preview` and the two preview credentials. To prepare a public build, set `SITE_MODE=production`, fill the explicit `approvals` lists in `content/site-data.json`, and redeploy. The media preparation script copies only approved project media into `public/media` in production. Original kit materials stay in `content/`, `assets/`, and `research/` and are not served as public files. Never place confidential source documents in `public/`.
+Import this folder as a Git repository in Vercel and select the standard Next.js framework preset. Use pnpm install and the default `next build`; no custom server or storage service is needed. No environment variables are required for a presentation deployment. The default mode displays the presentation content without a login. `SITE_URL` can optionally be set to the deployed origin. To prepare a public build, set `SITE_MODE=production`, fill the explicit `approvals` lists in `content/site-data.json`, and redeploy. The media preparation script copies only approved project media into `public/media` in production. Original kit materials stay in `content/`, `assets/`, and `research/` and are not served as public files. Never place confidential source documents in `public/`.
 
 For live email delivery, configure a verified Resend sender with `EMAIL_API_KEY`, `ENQUIRY_FROM`, `PROPERTY_INBOX`, `INVESTOR_INBOX`, and `GENERAL_INBOX`. The server route sends directly to Resend. Production without all five settings disables the form and displays the published business phone and email links. Copy `.env.example` to `.env.local` for local configuration; do not commit real secrets. No database, CMS, Redis, or persistent server storage is used.
 
